@@ -1,0 +1,29 @@
+O que é?
+
+É um conceito/funcionalidade muito utilizado por frameworks modernos, como React, Vue, Angular, etc. Consiste em definir uma única página HTML como raíz da aplicação, que é atualizada dinamicamente, em tempo de execução, para exibir o que o usuário deseja visualizar, ou seja, não é necessário que o navegador precise se atualizar para renderizar um novo conteúdo.
+
+Características:
+
+- Divisão do HTML em componentes, garantindo reaproveitamento;
+
+- Uma única página raíz para toda a aplicação;
+
+- Atualização da página raíz, mas não do navegador (Fluidez);
+
+- Gerenciamento de alteração de estado da página por meio de recursos de frameworks, o que pode dificultar a atualização da página raíz (Maior complexidade.), mas com a possibilidade de maior desempenho;
+
+- Etc.
+
+Por que utilizar?
+
+- Maior sensação de fluidez pelo usuário;
+
+- Evita repetição desnecessária de código (Reaproveitamento);
+
+- Etc.
+
+Fontes:
+
+https://www.devmedia.com.br/ja-ouviu-falar-em-single-page-applications/39009
+
+https://developer.mozilla.org/en-US/docs/Glossary/SPA

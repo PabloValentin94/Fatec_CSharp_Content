@@ -1,0 +1,45 @@
+O que é?
+
+Consiste no Desenvolvimento Orientado a Testes, onde para cada funcionalidade de um projeto é criado um teste, que se inicia antes da implementação da mesma e termina após ela.
+
+Etapas:
+
+- Definição da funcionalidade analisada;
+
+- Criação do teste antes da implementação (Teoria);
+
+- Erro previsto (Red);
+
+- Implementação da funcionalidade;
+
+- Adaptação do teste para seu pleno funcionamento (Green);
+
+- Revisão do código visando melhorias e padronização (Refactor).
+
+Após essas etapas, pode-se desenvolver um novo teste para outra funcionalidade, gerando um novo ciclo.
+
+Red (Falha):
+
+Nesta etapa, o teste é aplicado sem a existência do código da funcionalidade. É previsto que ocorra um erro, que será corrigido após a implementação da funcionalidade.
+
+Green (Êxito):
+
+Aqui, o teste anterior é adaptado, já existindo o código da funcionalidade, o que garante que a funcionalidade será implementada com sucesso.
+
+Refactor (Revisão):
+
+Sendo a última etapa, aqui a funcionalidade já foi implementada com sucesso, e o código é revisado, visando padronizá-lo e adicionar melhorias, caso seja possível.
+
+Por que utilizar?
+
+- Correção facilitada de bugs, devido aos testes;
+
+- Desenvolvimento e integração contínua, pois os problemas são identificados e resolvidos mais rapidamente;
+
+- Código mais limpo;
+
+- Etc.
+
+Fontes:
+
+https://www.devmedia.com.br/test-driven-development-tdd-simples-e-pratico/18533

@@ -1,0 +1,47 @@
+O que é?
+
+É um padrão arquitetural de projeto, muito parecido com o MVVM, porém um pouco menos complexo.
+
+Características:
+
+- A atualização não é em tempo real, ou seja, precisa ser especificada no código;
+
+- Diferente do MVVM, onde a View-Model não tem acesso direto a View, no MVP, a Presenter tem;
+
+- Etc.
+
+Camadas:
+
+- Model (Lógica de negócios e interceptação de mudanças de estado.);
+
+- View (Interface gráfica.);
+
+- Presenter (Camada de transporte de dados entre a View e a Model.).
+
+Model:
+
+Nesta camada são criados arquivos que definem os componentes (Classes) do projeto, suas características (Atributos, campos, métodos, etc.) e gerenciadores de eventos, que interceptam alterações na View e atualizam os dados da Model, caso seja necessário.
+
+View:
+
+Aqui, é onde são desenvolvidos os arquivos da interface gráfica, ou seja, tudo o que o usuário (Cliente) irá visualizar.
+
+Presenter:
+
+Camada intermediária entre a View e a Model, que é responsável por obter dados do banco de dados, através da Model, e fornecer, obter e manipular dados da View, de forma direta.
+
+Por que Utilizar?
+
+Pelos mesmo motivos do MVVM. São eles:
+
+- Melhor gerenciamento de projetos de médio e grande porte;
+
+- Código mais estruturado;
+
+- Maior facilidade para analisar erros, devido a separação do código em camadas;
+
+- Etc.
+
+Fontes:
+
+https://www.devmedia.com.br/o-padrao-mvp-model-view-presenter/3043

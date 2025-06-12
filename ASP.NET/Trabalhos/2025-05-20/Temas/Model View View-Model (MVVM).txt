@@ -1,0 +1,60 @@
+O que é?
+
+É um padrão de arquitetura de projeto de software, baseado nos paradigmas POO (Programação Orientada a Objetos) e POE (Programação Orientada a Eventos), onde uma coisa acontece após outra já ter acontecido.
+
+Características:
+
+- Atualização da interface em tempo real;
+
+- Separação do código em várias camadas, permitindo melhor gerenciamento do código;
+
+- Hierarquia de camadas bem definida (Nem todas as camadas interagem entre si.);
+
+- Etc.
+
+Camadas:
+
+- Model (Lógica de negócios da aplicação.);
+
+- View (Interface gráfica.);
+
+- View-Model (Manipulação e padronização dos dados da Model e atualização da View.).
+
+Model:
+
+Nesta camada são criados arquivos que definem os componentes (Classes) do projeto e suas características (Atributos, campos, métodos, etc.).
+
+View:
+
+Aqui, é onde são desenvolvidos os arquivos da interface gráfica, ou seja, tudo o que o usuário (Cliente) irá visualizar.
+
+View-Model:
+
+Camada intermediária entre a View e a Model, que é responsável por obter dados do banco de dados, através da Model, e fornecer, obter e manipular dados da View, de forma indireta (Data Binding.), garantindo que ela sempre fique atualizada em tempo real. Também é comum existirem gerenciadores de estado nesta camada, que interceptam eventos acionados pela interação do usuário com a View (O cálculo do valor de uma compra, por exemplo, com base na quantidade escolhida pelo cliente.).
+
+Por que utilizar?
+
+- Melhor gerenciamento de projetos de médio e grande porte;
+
+- Código mais estruturado;
+
+- Maior facilidade para analisar erros, devido a separação do código em camadas;
+
+- Etc.
+
+Exemplos da aplicação da View-Model (Eventos):
+
+- Funções que aumentam e diminuem a quantidade de um produto, após o usuário pressionar botões;
+
+- Cálculo em tempo real do valor total de uma compra, com base na interação do usuário;
+
+- Etc.
+
+Fontes:
+
+https://www.devmedia.com.br/entendendo-o-pattern-model-view-viewmodel-mvvm/18411
+https://www.youtube.com/watch?v=B2pJWtSyVFA
+https://www.youtube.com/watch?v=A197N1n0qSI
+https://pt.stackoverflow.com/questions/80601/o-que-%C3%A9-a-programa%C3%A7%C3%A3o-orientada-a-eventos
+https://medium.com/@laylaemanuele/o-que-%C3%A9-mvvm-quais-s%C3%A3o-os-pr%C3%B3s-e-contras-15c022f8cb99
+https://chatgpt.com/ (Explique o padrão de projeto arquitetural MVVM.)

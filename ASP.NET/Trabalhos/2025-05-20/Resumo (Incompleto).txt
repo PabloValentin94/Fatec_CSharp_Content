@@ -1,0 +1,127 @@
+TDD (Test Driven Development):
+
+    - O que é?
+
+        Desenvolvimento do projeto baseado em testes criados antes da adição de novas funcionalidades.
+
+    - Como é feito?
+
+        + Escreva um teste que dará errado de forma proposital (Red);
+
+        + Adicione a nova funcionalidade;
+
+        + Faça com que a funcionalidade passe no teste (Green);
+
+        + Refatore/Melhore o código gerado (Refactor).
+
+    - Por que é útil?
+
+        + Menor quantidade de bugs possíveis;
+
+        + Código mais limpo e legível;
+
+        + Etc.
+
+    - Exemplo.
+
+        + Chamar uma função que ainda não existe, o que gera um erro (Red);
+
+        + Implementar a função proposta e fazê-la funcionar como especificado (Green);
+
+        + Fazer melhorias no código gerado (Refactor).
+
+MVVM (Model View View-Model):
+
+    - O que é?
+
+        É um padrão de projeto baseado em eventos, utilizado, principalmente, por aplicativos móveis.
+
+    - Como é implementado?
+
+	    + A Model define as regras de negócio (Quais itens e que características eles terão.);
+
+        + A View define a interface de usuário (Páginas);
+
+        + A View-Model é a camada de comunicação e transporte de dados entre a View e a Model.
+
+    - Por que é útil?
+
+        + Garante que o código fique seguimentado da melhor forma possível;
+
+        + Garante uma maior segurança no fluxo de dados (Fluxo unilateral);
+
+        + Permite personalizar uma resposta antes de exibí-la;
+
+        + Etc.
+
+    - Exemplo.
+
+        + Obter um dado monetário do banco de dados (Model);
+
+        + Formatar o dado encontrado para uma máscara especifica (View-Model);
+
+        + Exibir o dado formatado na interface de usuário (View).
+
+MVP (Model View Presenter):
+
+    - O que é?
+
+	    É um padrão de projeto parecido com o MVVM, mas que não possui Binding automático.
+
+    - Como é implementado?
+
+	    + As Model definem as regras de negócio (Quais itens e que características eles terão.);
+
+        + A View define a interface de usuário (Páginas);
+
+        + A Presenter é a camada de comunicação e transporte de dados entre a View e a Model.
+
+    - Por que é útil?
+
+        + Garante que o código fique seguimentado da melhor forma possível;
+
+        + Permite personalizar uma resposta antes de exibí-la;
+
+        + Etc.
+
+    - Exemplo.
+
+	    O exemplo utilizado no MVVM também se aplica ao MVP.
+
+SPA (Single Page Application):
+
+    - O que é?
+
+	    É um conceito/funcionalidade muito utilizado por frameworks modernos, como React, Vue, Angular, etc. Consiste em definir uma única página HTML como raíz da aplicação, que é atualizada dinamicamente, em tempo de execução, para exibir o que o usuário deseja visualizar, ou seja, não é necessário que o navegador precise se atualizar para renderizar um novo conteúdo.
+
+    - Como é implementado?
+
+        + Crie uma página HTML raíz;
+
+        + Defina um monitorador de alteração de estado (É acionado quando o usuário troca de página.);
+
+        + Crie arquivos que irão retornar um trecho HTML, mas não exibí-los (Componentes);
+
+        + Garanta que todo componente retorne seu conteúdo para a página raíz do projeto.
+
+    - Por que é útil?
+
+        + Sensação de fluídez, por parte do usuário;
+
+        + Evita repetição desnecessária de código;
+
+        + Alguns componentes podem ser utilizados dentro de outros (Reaproveitamento);
+
+        + Etc.
+
+    - Exemplo.
+
+	    A maioria dos projetos feitos em React, Vue ou Angular são exemplos práticos desse conceito.
+
+Fontes:
+
+    https://www.devmedia.com.br/test-driven-development-tdd-simples-e-pratico/18533
+
+    https://analisederequisitos.com.br/mvvm-o-que-e-model-view-viewmodel/
+
+    ChatGPT (Resumo): https://chatgpt.com/
